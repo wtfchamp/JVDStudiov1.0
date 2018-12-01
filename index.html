@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>JVD Studio</title>
+    <!--meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1"-->
+    <meta name="keywords" content="JVD Studio, Studio, Cars, Bikes, Motocicleta, Carros, Detallado"/>
+    <meta charset="utf-8">
+    <link rel="shorcut icon" type="image/png" href="img/jvdAzul.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/Valentine.css">
+    <link rel="stylesheet" type= "text/css" href="css/fxtransparent.css">
+    <link rel="stylesheet" type="text/css" href="css/component.css">
+    <link rel="stylesheet" type="text/css" href="css/set2.css">
+    <link rel="stylesheet" type="text/css" href="css/enviar.css">
+    <link rel="stylesheet" type"text/css" href="css/styleMenu.css">
+    <link rel="stylesheet" type="text/css" href="css/slide.css">
+    <script src="js/Modernizr.custom.js"></script>
+  </head>
+  <!--Este es mi primer proyecto de freelancer como un noob de HTML5, lo hice cuando no tenía la remota ídea de que era la programación web, sorry por el desastre de porgramación -->
+  <body id="pageTop" style= "background-color: #171a23; background-image:url(img/backgroundweb.jpg); background-position:top; background-size: cover; background-repeat: no-repeat; " class="body">
+    <button id="btnMenu" title="Home Menu"><img src="img/topNav.svg" alt="MenuIncio" style="width: 40px; height: 40px;"></button>
+    <div class="container" style="margin-top: 100px;" id="menu">
+      <div class="col-sm-12 col-md-5 content--related"><img style="width: 80%; height: 80%;" src="img/LogoJVD.png" alt="JVDetails.com" ></div>
+        <div class="col-sm-12 col-md-7 content--related" style="margin-top: 30px" id="Valentine">
+            <nav class="menu menu--valentine">
+              <ul class="menu__list">
+                <li class="menu__item menu__item--current"><a id="Inicio" class="menu__link">Inicio</a></li>
+                <li class="menu__item"><a id="Servicios" class="menu__link">Servicios</a></li>
+                <li class="menu__item"><a id="Contacto" class="menu__link">Contacto</a></li>
+              </ul>
+            </nav>
+        </div>
+    </div>
+<!-- Slider Autos -->
+  <div class="container slideHeight" id="Slide" >
+    <div id="component" class="component component-transparent fxSlideIt">
+        <ul class="itemwrap" id="wrap">
+          <li class="current"><img src="img/img1.png" alt="img1"/></li>
+          <li><img src="img/img2.png" alt="img2"/></li>
+          <li><img src="img/img3.png" alt="img3"/></li>
+          <li><img src="img/img4.png" alt="img4"/></li>
+          <li><img src="img/img5.png" alt="img5"></li>
+          <li><img src="img/img6.png" alt="img6"></li>
+        </ul>
+        <nav>
+          <a class="prev">Previous</a>
+          <a class="next">Next</a>
+        </nav>
+      </div>
+      <div class="col-sm-12 contentDiv" >
+          <img onclick="window.open('https://www.instagram.com/jvdetails/')" style="width: 60px; height: 60px; margin-right: 30px;" src="img/instagram.svg" alt="Instagram">
+          <img onclick="window.open('https://www.facebook.com/JVDetails-173755203175235')" style="width: 60px; height: 60px; margin-right: 30px;" src="img/facebook.svg" alt="Facebook">
+          <img onclick="window.open('https://www.youtube.com')" style="width: 60px; height: 60px;" src="img/youtube.svg" alt="YouTube">
+      </div>
+  </div>
+<!-- Slider Autos -->
+
+<!-- Servicios Img-->
+<div class="col-sm-12" id="Services">
+  <img style="display:block; margin:0 auto 0 auto; width: 20%; height: 20%;" src="img/jvdservicios.png" alt="JVDServicios" class="img-responsive">
+</div>
+<!--Servicios -->
+<div id="Servicios" class="col-sm-12 servicesHeight">
+    <div class="col-sm-12 content--related" style="" id="Submenu">
+      <button style="margin: 0px auto 0px auto; background: transparent; border: 0px;" id="Automovil"><img style="width: 200px;" src="img/iServiciosA.svg" alt="Auto"></button>
+      <button style="margin: 0px auto 0px auto; background: transparent; border: 0px;" id="Motocicleta"><img style="width: 200px;" src="img/iServiciosM.svg" alt="Motocicleta"></button>
+      <button style="margin: 0px auto 0px auto; background: transparent; border: 0px;" id="Costo"><img style="width: 200px;" src="img/iServiciosC.svg" alt="Costos"></button>
+    </div>
+    <div class="col-sm-12 content--related" style="display: none;" id="Subservicios">
+      <button style="margin: 0px auto 0px auto; background: transparent; border: 0px;" id="button1"><img style="width: 100px;" src="img/iServicio1.svg" title="Lavado Premium"><br><br>Lavado<br>Premium</button>
+      <button style="margin: 0px auto 0px auto; background: transparent; border: 0px;" id="button2"><img style="width: 100px;" src="img/iServicio2.svg" title="Detallado Basico"><br><br>Detallado<br>Básico</button>
+      <button style="margin: 0px auto 0px auto; background: transparent; border: 0px;" id="button3"><img style="width: 100px;" src="img/iServicio3.svg" title="Detallado Medio"><br><br>Detallado<br>Medio</button>
+      <button style="margin: 0px auto 0px auto; background: transparent; border: 0px;" id="button4"><img style="width: 100px;" src="img/iServicio4.svg" title="Detallado Premium"><br><br>Detallado<br>Premium</button>
+      <button style="margin: 0px auto 0px auto; background: transparent; border: 0px;" id="button5"><img style="width: 100px;" src="img/iServicio5.svg" title="Detallado Interior"><br><br>Detallado<br>Interior</button>
+      <button style="margin: 0px auto 0px auto; background: transparent; border: 0px;" id="buttonR"><img style="width: 100px;" src="img/return.svg" alt="ReturnImg"></button>
+    </div>
+    <div class="col-sm-12 content--related" style= "display: none;" id="SubCostos">
+      <button style="margin: 0px auto 0px auto; background: transparent; border: 0px;" id="buttonC1"><img style="width: 200px;" src="img/iServicioC1.svg" title="Costo 1"></button>
+      <button style="margin: 0px auto 0px auto; background: transparent; border: 0px;" id="buttonC2"><img style="width: 200px;" src="img/iServicioC2.svg" title="Costo 2"></button>
+      <button style="margin: 0px auto 0px auto; background: transparent; border: 0px;" id="buttonC3"><img style="width: 200px;" src="img/iServicioC3.svg" title="Costo 3"></button>
+      <button style="margin: 0px auto 0px auto; background: transparent; border: 0px;" id="buttonCR"><img style="width: 100px;" src="img/return.svg" alt="ReturnImg"></button>
+    </div>
+    <section class="col-sm-12 contentSec" id="imageDis"><img src="img/iServicio.png" alt="Servicios" style="margin: auto; width:70% ; height: 70%;" class="img-responsive" id="imageEffect">
+    </section>
+    <div class="col-sm-12" style="display: none;" id="table1">
+      <table>
+        <tr>
+          <th colspan="6">TIPO DE SERVICIO</th>
+        </tr>
+        <tr>
+          <td>Tamaño de Auto</td><td>Lavado Premium</td><td>Detallado Básico</td><td>Detallado Medio</td><td>Detallado Premium</td><td>Detallaro Interior</td>
+        </tr>
+        <tr>
+          <td colspan="6"></td>
+        </tr>
+        <tr>
+          <td>Chico</td><td>600</td><td>1,600</td><td>2,000</td><td>3,000</td><td>1,000</td>
+        </tr>
+        <tr>
+          <td>Mediano</td><td>700</td><td>1,700</td><td>2,300</td><td>3,300</td><td>1,200</td>
+        </tr>
+        <tr>
+          <td>Grande y Suvs</td><td>800</td><td>1,800</td><td>2,500</td><td>3,500</td><td>1,300</td>
+        </tr>
+        <tr>
+          <td>Camionetas y Minivans</td><td>1,000</td><td>2,000</td><td>3,000</td><td>4,000</td><td>1,500</td>
+        </tr>
+        <tr>
+          <td></td><td>4 Hrs.</td><td>12 Hrs.</td><td>24 Hrs.</td><td>36 Hrs.</td><td>8 Hrs.</td>
+        </tr>
+        <tr>
+          <td>Moto Chica</td><td>500</td><td>1,000</td><td>1,200</td><td>1,500</td><td rowspan="3"></td>
+        </tr>
+        <tr>
+          <td>Moto Mediana</td><td>600</td><td>1,200</td><td>1,500</td><td>2,000</td>
+        </tr>
+        <tr>
+          <td>Moto Grande</td><td>800</td><td>1,500</td><td>2,000</td><td>2,500</td>
+        </tr>
+        <tr>
+          <td></td><td>4 Hrs.</td><td>12 Hrs.</td><td>24 Hrs.</td><td>36 Hrs.</td><td></td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-sm-12" style="display: none;" id="table2">
+      <table>
+        <tr>
+          <th colspan="8">SERVICIOS ADICIONALES</th>
+        </tr>
+        <tr>
+          <td colspan="8"></td>
+        </tr>
+        <tr>
+          <td>Tamaño de Auto</td><td>Pulido Parabrisas</td><td>Pulido de todos los Vidros</td><td>Restauración de Faros (PAR)</td><td>Detallado Interior<br>Adicional a un Paquete</td><td>GYEON<br>Q2 Fabric (Tela)</td><td>GYEON<br>Q2 Leather (Piel)</td><td>GYEON<br>Capota Convertible</td>
+        </tr>
+        <tr>
+          <td>Chico</td><td>300</td><td>800</td><td>300</td><td>800</td><td>1,000</td><td>1,000</td><td>1,000</td>
+        </tr>
+        <tr>
+          <td>Mediano</td><td>400</td><td>1,000</td><td>300</td><td>1,000</td><td>1,200</td><td>1,200</td><td>1,200</td>
+        </tr>
+        <tr>
+          <td>Grande y Suvs</td><td>500</td><td>1,200</td><td>300</td><td>1,100</td><td>1,500</td><td>1,500</td><td>1,500</td>
+        </tr>
+        <tr>
+          <td>Camionetas y Minivans</td><td>500</td><td>1,500</td><td>300</td><td>1,200</td><td>2,000</td><td>2,000</td><td></td>
+        </tr>
+      </table>
+    </div>
+    <div class= "col-sm-12" style="display: none;" id="table3">
+      <table>
+        <tr>
+          <th colspan="2">Cerámicos</th>
+          <th colspan="8">Precio / Paquete de su elección (se recomienda apartir de paquete Detallado Medio) + Cerámico de su elección</th>
+        </tr>
+        <tr>
+          <td>Tamaño de Auto</td><td>KISHO<br>Si. 901 Si-701</td><td>KISHO G-01<br>(Solo parabrisas)</td><td>KISHO Si-02<br>4 RINES</td><td>GYEON<br>Q2 CAN COAT</td><td>GYEON<br>Q2 PRIME</td><td>GYEON<br>Q2 MOHS</td><td>GYEON RIN<br>(Paquete Premium)</td><td>GYEON TRIM<br>(Paquete Básico)</td><td>GYEON VIEW<br>(Solor Parabrisas)</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Info. del Producto</th>
+          <td><button class="botonEst1" onclick="window.open('http://kishomexico.com/')">Más info.</button></td><td><button class="botonEst1" onclick="window.open('http://kishomexico.com/')">Más info.</button></td>
+          <td><button class="botonEst1" onclick="window.open('http://kishomexico.com/')">Más info.</button></td><td><button class="botonEst1" onclick="window.open('http://gyeonquartz.es/product/cancoat/')">Más info.</button></td>
+          <td><button class="botonEst1" onclick="window.open('http://gyeonquartz.es/product/prime/')">Más info.</button></td><td><button class="botonEst1" onclick="window.open('http://gyeonquartz.es/product/mohs/')">Más info.</button></td>
+          <td><button class="botonEst1" onclick="window.open('http://gyeonquartz.es/product/rim/')">Más info.</button></td><td><button class="botonEst1" onclick="window.open('http://gyeonquartz.es/product/trim/')">Más info.</button></td>
+          <td><button class="botonEst1" onclick="window.open('http://gyeonquartz.es/product/view-2/')">Más info.</button></td>
+        </tr>
+        <tr>
+          <td><button class="botonEst2" onclick="window.open('https://youtu.be/M16aXVnVNyM')">Ver vídeo</button></td><td><button class="botonEst2" onclick="window.open('https://youtu.be/M16aXVnVNyM')">Ver vídeo</button></td>
+          <td><button class="botonEst2" onclick="window.open('https://youtu.be/M16aXVnVNyM')">Ver vídeo</button></td><td><button class="botonEst2" onclick="window.open('https://www.youtube.com/watch?v=whY5BrPHRYM')">Ver vídeo</button></td>
+          <td><button class="botonEst2" onclick="window.open('https://www.youtube.com/watch?v=UFGdQsNLS7U')">Ver vídeo</button></td><td><button class="botonEst2" onclick="window.open('https://www.youtube.com/watch?v=0_r8Z5QBUnY')">Ver vídeo</button></td>
+          <td><button class="botonEst2" onclick="window.open('https://www.youtube.com/watch?v=htLGZr2JdLk')">Ver vídeo</button></td><td><button class="botonEst2" onclick="window.open('https://www.youtube.com/watch?v=em5R4CD4HFk')">Ver vídeo</button></td>
+          <td><button class="botonEst2" onclick="window.open('https://www.youtube.com/watch?v=eUXLh5IczjI')">Ver vídeo</button></td>
+        </tr>
+        <tr>
+          <td>Chico</td><td>2,000</td><td>300</td><td>300 R13 R14</td><td>2,000</td><td>4,000</td><td>5,000</td><td>800 R13 R14</td><td>500</td><td>500</td>
+        </tr>
+        <tr>
+          <td>Mediano</td><td>2,200</td><td>300</td><td>400 R15 R16</td><td>2,200</td><td>4,200</td><td>5,200</td><td>1,000 R13 R14</td><td>500</td><td>500</td>
+        </tr>
+        <tr>
+          <td>Grande y Suvs</td><td>2,500</td><td>300</td><td>500 R17 R18</td><td>2,500</td><td>4,500</td><td>5,500</td><td>1,200 R13 R14</td><td>500</td><td>500</td>
+        </tr>
+        <tr>
+          <td>Camionetas y Minivans</td><td>3,000</td><td>500</td><td>800 R20 R22</td><td>3,000</td><td>5,000</td><td>6,000</td><td>1,500 R13 R14</td><td>800</td><td>800</td>
+        </tr>
+        <tr>
+          <td colspan="10"><br></td>
+        </tr>
+        <tr>
+          <td>Moto Chica</td><td>500</td><td rowspan="2"></td><td>300</td><td>500</td><td>800</td><td>1,000</td><td>500</td><td>300</td><td rowspan="2"></td>
+        </tr>
+        <tr>
+          <td>Moto Mediana</td><td>800</td><td>300</td><td>800</td><td>1,000</td><td>1,200</td><td>500</td><td>300</td>
+        </tr>
+        <tr>
+          <td>Moto Grande</td><td>1,000</td><td>200</td><td>300</td><td>1,000</td><td>1,200</td><td>1,500</td><td>500</td><td>300</td><td>300</td>
+        </tr>
+      </table>
+    </div>
+
+</div>
+<!-- Servicios -->
+<!--<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div-->
+<!-- Contacto Img-->
+<div class="col-sm-12">
+  <img style="display:block;margin: 0 auto 0 auto; width: 20%; height: 20%;" src="img/jvdcontactos.png" alt="JVDServicios" class="img-responsive">
+</div>
+<!-- Contacto -->
+<div class="col-sm-12 col-md-12 contactHeight" id="Contact" style="padding-bottom: 50px;">
+  <div id="divExtra" class="col-lg-2">
+  </div>
+  <div class="col-sm-6 col-md-6 col-lg-4"><br><br><br><br><br>
+    <form name="Form" id="formulario" method="post">
+    <section class="content bgcolor-4">
+				<span class="input input--kozakura">
+					<input class="input__field input__field--kozakura" type="text" id="input-7" name="input7"/>
+					<label class="input__label input__label--kozakura" for="Nombre">
+						<span class="input__label-content input__label-content--kozakura" name="Nombre" data-content="Nombre" id="nombre">Nombre</span>
+					</label>
+					<svg class="graphic graphic--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+						<path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z"/>
+					</svg>
+				</span>
+				<span class="input input--kozakura">
+					<input class="input__field input__field--kozakura" type="text" id="input-8" name="input8"/>
+					<label class="input__label input__label--kozakura" for="EmailTelefono">
+						<span class="input__label-content input__label-content--kozakura" name= "Email" data-content="e-mail @" id="email">e-mail @</span>
+					</label>
+					<svg class="graphic graphic--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+						<path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z"/>
+					</svg>
+				</span>
+        <span class="input input--kozakura">
+					<input class="input__field input__field--kozakura" type="text" id="input-9" name="input9"/>
+					<label class="input__label input__label--kozakura" for="Telefono">
+						<span class="input__label-content input__label-content--kozakura" name= "Telefono" data-content="Teléfono" id="telefono">Teléfono</span>
+					</label>
+					<svg class="graphic graphic--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+						<path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z"/>
+					</svg>
+				</span>
+				<span class="input input--kozakura">
+					<input class="input__field input__field--kozakura" type="text" id="input-10" name="input10"/>
+					<label class="input__label input__label--kozakura" for="Mensaje">
+						<span class="input__label-content input__label-content--kozakura"  name="Mensaje" data-content="Mensaje" id="mensaje">Mensaje</span>
+					</label>
+					<svg class="graphic graphic--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+						<path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z"/>
+					</svg>
+				</span>
+			</section>
+      <!--Boton para Safari y otros -->
+      <div class="content--related" style="display: none;" id="safariButton">
+					<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+						<defs>
+							<filter id="filter-goo-2">
+								<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
+								<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+								<feComposite in="SourceGraphic" in2="goo" />
+							</filter>
+						</defs>
+					</svg>
+					<button id="component-2" class="button button--2 submit" style="filter: url('#filter-goo-2')" name="email">Enviar<span class="button__bg"></span>
+					</button>
+      </div>
+      <!--Boton para Chrome -->
+      <div class="content--related" style="" id="chromeButton">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+          <defs>
+            <filter id="filter-ripple-1">
+              <feImage xlink:href="img/ripple.png" x="30" y="20" width="0" height="0" result="ripple"></feImage>
+              <feDisplacementMap xChannelSelector="R" yChannelSelector="G" color-interpolation-filters="sRGB" in="SourceGraphic" in2="ripple" scale="20" result="dm" />
+              <feComposite operator="in" in2="ripple"></feComposite>
+              <feComposite in2="SourceGraphic"></feComposite>
+            </filter>
+          </defs>
+        </svg>
+        <button id="component-8" class="button button--8 submit" style="filter: url('#filter-ripple-1')" name="email" tittle="Enviar Contacto">Enviar</button>
+      </div><br><br>
+      </form>
+  </div>
+  <section id="mapaStyle" class="col-sm-6 col-md-6 col-lg-4"
+  onclick="window.open('https://www.google.com/maps?q=Calle+6+Sur+123,+Reforma,+72160+Puebla,+Pue.&ftid=0x85cfc6dab77a3471:0x2595ba2edec0a583&hl=es&gl=us&shorturl=1')"
+  title="¡Haz Click Aquí!"
+  style="background-image: url(img/mapaGM.png); background-position: center; background-repeat: no-repeat; width: calc(100% - 50%); height: 70%; cursor: pointer;">
+  </section>
+
+</div>
+<!-- Contacto-->
+
+<!-- social media -->
+<div class=" col-sm-12 col-md-12 content--related" >
+  <div class="col-sm-4 col-md-4">
+    <img style="height:100px; width: 300px;"src="img/LogoJVD.png" alt="LogoJVD">
+  </div>
+  <div class="col-sm-4 col-md-4 content--related">
+    <img onclick="window.open('https://www.instagram.com/jvdetails/')" style="width: 60px; height: 60px; margin-right: 30px;" src="img/instagram.svg" alt="Instagram">
+    <img onclick="window.open('https://www.facebook.com/JVDetails-173755203175235')" style="width: 60px; height: 60px;margin-right: 30px;" src="img/facebook.svg" alt="Facebook">
+    <img onclick="window.open('https://www.youtube.com')" style="width: 60px; height: 60px;" src="img/youtube.svg" alt="YouTube">
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <span class="menu__link">Copyright 2017 &copy by Andres Cholula F.</span>
+  </div>
+</div>
+<!-- Social Media y Copyright-->
+
+<!-- Scripts-->
+  <script src= "js/jquery.js"></script>
+  <!--script src= "js/bootstrap.min.js"></script-->
+  <script src="js/classie.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+  <script src="js/prin.js"></script>
+  <script src= "js/Slide.js"></script>
+  <script src="js/clipboard.min.js"></script>
+  <script>
+    (function() {
+      [].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
+        var menuItems = menu.querySelectorAll('.menu__link'),
+          setCurrent = function(ev) {
+            ev.preventDefault();
+
+            var item = ev.target.parentNode; // li
+
+            // return if already current
+            if( classie.has(item, 'menu__item--current') ) {
+              return false;
+            }
+            // remove current
+            classie.remove(menu.querySelector('.menu__item--current'), 'menu__item--current');
+            // set current
+            classie.add(item, 'menu__item--current');
+          };
+
+        [].slice.call(menuItems).forEach(function(el) {
+          el.addEventListener('click', setCurrent);
+        });
+      });
+    })(window);
+  </script>
+
+  <script>
+			(function() {
+				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+				if (!String.prototype.trim) {
+					(function() {
+						// Make sure we trim BOM and NBSP
+						var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+						String.prototype.trim = function() {
+							return this.replace(rtrim, '');
+						};
+					})();
+				}
+
+				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
+					// in case the input is already filled..
+					if( inputEl.value.trim() !== '' ) {
+						classie.add( inputEl.parentNode, 'input--filled' );
+					}
+
+					// events:
+					inputEl.addEventListener( 'focus', onInputFocus );
+					inputEl.addEventListener( 'blur', onInputBlur );
+				} );
+
+				function onInputFocus( ev ) {
+					classie.add( ev.target.parentNode, 'input--filled' );
+				}
+
+				function onInputBlur( ev ) {
+					if( ev.target.value.trim() === '' ) {
+						classie.remove( ev.target.parentNode, 'input--filled' );
+					}
+				}
+			})();
+		</script>
+
+    <script type="text/javascript">
+    ///////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////
+    (function navegador() {
+      var is_Chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+      if(is_Chrome != true){
+        document.querySelector("#safariButton").style.display = "";
+        document.querySelector("#chromeButton").style.display = "none";
+      }else {
+        document.querySelector("#safariButton").style.display = "none;";
+        document.querySelector("#chromeButton").style.display = "";
+      }
+    })();
+    ///////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////
+    (function displaySub1() {
+        $("#Automovil").click(function (e) {
+            e.preventDefault();
+            document.querySelector("#Submenu").style.display = "none";
+            document.querySelector("#Subservicios").style.display = "";
+            document.querySelector("#button5").style.display = "";
+            document.getElementById('imageEffect').src = "img/iLPremium.png";
+        });
+    })();
+    (function displaySub2() {
+        $("#Motocicleta").click(function (e) {
+            e.preventDefault();
+            document.querySelector("#Submenu").style.display = "none";
+            document.querySelector("#Subservicios").style.display = "";
+            document.querySelector("#button5").style.display = "none";
+            document.getElementById('imageEffect').src = "img/iLPremiumM.png";
+        });
+    })();
+      (function displaySub3() {
+        $("#Costo").click(function (e) {
+            e.preventDefault();
+            document.querySelector("#Submenu").style.display = "none";
+            document.querySelector("#Subservicios").style.display = "none";
+            document.querySelector("#SubCostos").style.display = "";
+            document.querySelector("#table1").style.display = "";
+            document.querySelector("#imageDis").style.display ="none";
+          });
+      })();
+      ///////////////////////////////////////////////////////////////
+      ///////////////////////////////////////////////////////////////
+      (function changeImg1(){
+        $("#button1").click(function (e) {
+          e.preventDefault();
+          if(document.querySelector("#button5").style.display == "none"){
+            document.getElementById('imageEffect').src = "img/iLPremiumM.png";
+          }else {
+            document.getElementById('imageEffect').src = "img/iLPremium.png";
+          }
+        });
+      })();
+      (function changeImg2() {
+        $("#button2").click(function (e) {
+          e.preventDefault();
+          if(document.querySelector("#button5").style.display == "none"){
+            document.getElementById('imageEffect').src = "img/iDBasicoM.png";
+          }else {
+            document.getElementById('imageEffect').src = "img/iDBasico.png";
+          }
+        });
+      })();
+      (function changeImg3() {
+        $("#button3").click(function (e) {
+          e.preventDefault();
+          if(document.querySelector("#button5").style.display == "none"){
+            document.getElementById('imageEffect').src = "img/iDMedioM.png";
+
+          }else {
+            document.getElementById('imageEffect').src = "img/iDMedio.png";
+
+          }
+        });
+      })();
+      (function changeImg4() {
+        $("#button4").click(function (e) {
+          e.preventDefault();
+          if(document.querySelector("#button5").style.display == "none") {
+            document.getElementById('imageEffect').src = "img/iDPremiumM.png";
+          } else {
+            document.getElementById('imageEffect').src = "img/iDPremium.png";
+          }
+        });
+      })();
+      (function changeImg5() {
+        $("#button5").click(function (e) {
+          e.preventDefault();
+          document.getElementById('imageEffect').src = "img/iDInterior.png";
+        });
+      })();
+      (function changeImgR() {
+        $("#buttonR").click(function (e) {
+          e.preventDefault();
+          document.querySelector("#Submenu").style .display= "";
+          document.querySelector("#Subservicios").style.display = "none";
+          document.getElementById('imageEffect').src = "img/iServicio.png";
+        });
+      })();
+      (function changeImgC1() {
+        $("#buttonC1").click(function (c) {
+          c.preventDefault();
+          document.querySelector("#table1").style.display="";
+          document.querySelector("#table2").style.display="none";
+          document.querySelector("#table3").style.display="none";
+          document.querySelector("#imageDis").style.display="none";
+        });
+      })();
+      (function changeImgC2() {
+        $("#buttonC2").click(function (c) {
+          c.preventDefault();
+          document.querySelector("#table1").style.display="none";
+          document.querySelector("#table2").style.display="";
+          document.querySelector("#table3").style.display="none";
+          document.querySelector("#imageDis").style.display="none";
+        });
+      })();
+      (function changeImgC3() {
+        $("#buttonC3").click(function (c) {
+          c.preventDefault();
+          document.querySelector("#imageDis").style.display="none";
+          document.querySelector("#table1").style.display="none";
+          document.querySelector("#table2").style.display="none";
+          document.querySelector("#table3").style.display="";
+        });
+      })();
+      (function changeImgCR() {
+        $("#buttonCR").click(function (e) {
+          e.preventDefault();
+          document.querySelector("#SubCostos").style.display = "none";
+          document.querySelector("#Submenu").style .display= "";
+          document.querySelector("#imageDis").style.display= "";
+          document.querySelector("#table1").style.display= "none";
+          document.querySelector("#table2").style.display= "none";
+          document.querySelector("#table3").style.display= "none";
+          document.querySelector("#Subservicios").style.display = "none";
+          document.getElementById('imageEffect').src = "img/iServicio.png";
+        });
+      })();
+      ///////////////////////////////////////////////////////////////
+      ///////////////////////////////////////////////////////////////
+      /*$(window).resize(function(){
+        var w = $(window).width();
+        if (document.querySelector('#Slide')) {
+          if(w >= 1700 ){
+            document.querySelector('#Slide').style="height: 1100px;";
+            document.querySelector('#Servicios').style="height: 1100px;";
+            document.querySelector('#Contact').style="padding-bottom: 50px; height: 1100px;";
+          }else {
+            document.querySelector('#Slide').style="height: 1000px;";
+            document.querySelector('#Servicios').style="height: 1000px;";
+            document.querySelector('#Contact').style="padding-bottom: 50px; height: 1000px;";
+          }
+        }
+      });*/
+      (function scrollSlide() {
+          $("#Inicio").click(function (e) {
+              e.preventDefault();
+              $('html,body').animate({
+                  scrollTop: $("#Slide").offset().top
+              }, 200);
+          });
+      })();
+      (function scrollServices() {
+          $("#Servicios").click(function (e) {
+              e.preventDefault();
+              $('html,body').animate({
+                  scrollTop: $("#Services").offset().top
+              }, 200);
+          });
+      })();
+      (function scrollContact() {
+          $("#Contacto").click(function (e) {
+              e.preventDefault();
+              $('html,body').animate({
+                  scrollTop: $("#Contact").offset().top
+              }, 200);
+          });
+      })();
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+          document.getElementById("btnMenu").style.display = "block";
+        } else {
+          document.getElementById("btnMenu").style.display = "none";
+        }
+      }
+      (function scrollMenu() {
+        $("#btnMenu").click(function (e) {
+            e.preventDefault();
+            $('html,body').animate({
+                scrollTop: $("#menu").offset().top
+            }, 10);
+        });
+      })();
+
+
+    </script>
+</body>
+</html>

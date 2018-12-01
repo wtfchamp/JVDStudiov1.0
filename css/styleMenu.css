@@ -1,0 +1,153 @@
+#btnMenu {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#btnMenu:hover {
+  background-color: #171a23;
+}
+.slideHeight{
+  height: 1000px;
+}
+.servicesHeight{
+  height: 1000px;
+}
+.contactHeight{
+  height: 1000px;
+}
+@media (max-width: 1660px) {
+  .slideHeight{
+    height: 1000px;
+  }
+  .servicesHeight{
+    height: 1000px;
+  }
+  .contactHeight{
+    height: 1000px;
+  }
+}
+@media (min-width: 1660px) {
+  .slideHeight{
+    height: 1100px;
+  }
+  .servicesHeight{
+    height: 1100px;
+  }
+  .contactHeight{
+    height: 1100px;
+  }
+}
+@media (min-width: 1760px) {
+  .slideHeight{
+    height: 1100px;
+  }
+  .servicesHeight{
+    height: 1100px;
+  }
+  .contactHeight{
+    height: 1100px;
+  }
+}
+@media (min-width: 1860px) {
+  .slideHeight{
+    height: 1150px;
+  }
+  .servicesHeight{
+    height: 1150px;
+  }
+  .contactHeight{
+    height: 1150px;
+  }
+}
+@media (min-width: 1960px) {
+  .slideHeight{
+    height: 1200px;
+  }
+  .servicesHeight{
+    height: 1200px;
+  }
+  .contactHeight{
+    height: 1200px;
+  }
+}
+@media (min-width: 2060px) {
+  .slideHeight{
+    height: 1250px;
+  }
+  .servicesHeight{
+    height: 1250px;
+  }
+  .contactHeight{
+    height: 1250px;
+  }
+}
+@media (min-width: 2160px) {
+  .slideHeight{
+    height: 1500px;
+  }
+  .servicesHeight{
+    height: 1500px;
+  }
+  .contactHeight{
+    height: 1500px;
+  }
+}
+table{
+  font-family: inherit;
+  color: #ffffff;
+  border: 0.2em solid #ffffff;
+  text-align: center;
+  margin: 150px auto auto auto;
+}
+th, td{
+  text-align: center;
+  border: 0.2em solid #ffffff;
+  padding: 10px;
+}
+.botonEst1{
+  border-radius: 142px 142px 142px 142px;
+  -moz-border-radius: 142px 142px 142px 142px;
+  -webkit-border-radius: 142px 142px 142px 142px;
+  border: 0px solid #254790;
+  background-color: #254790;
+
+}
+.botonEst2{
+  border-radius: 142px 142px 142px 142px;
+  -moz-border-radius: 142px 142px 142px 142px;
+  -webkit-border-radius: 142px 142px 142px 142px;
+  border: 0px solid #fc357e;
+  background-color: #fc357e;
+}
+.contentDiv{
+	text-align: center;
+	position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 150px;
+}
+.contentSec{
+	//text-align: center;
+	position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 150px;
+  bottom: auto;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(2.0); }
+
+
+.growS { transition: all .2s ease-in-out; }
+.growS:hover { transform: scale(1.1); }
